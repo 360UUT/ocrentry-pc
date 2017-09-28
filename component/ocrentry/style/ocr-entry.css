@@ -1,0 +1,131 @@
+﻿.ocr-entry .list-group {
+    margin-bottom: 0;
+    padding: 10px;
+    height: 100%;
+}
+
+.ocr-entry .modal-dialog {
+    width: 510px;
+    height: 570px;
+}
+
+.ocr-entry .container-fluid {
+    height: 459px;
+    /*border-bottom: 1px solid #ccc;*/
+}
+
+
+
+    .ocr-entry .container-fluid > .row {
+        height: 100%;
+    }
+
+        .ocr-entry .container-fluid > .row > .content-col {
+            height: 100%;
+            padding: 10px;
+        }
+
+.ocr-entry .inner-content {
+    height: 100%;
+    border: 1px solid #ccc;
+    width: 117px;
+    overflow-y: auto;
+}
+
+    .ocr-entry .inner-content.right-content {
+        width: 100%;
+    }
+
+.ocr-entry .modal-footer {
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    height: 80px;
+    text-align: center;
+}
+
+    .ocr-entry .modal-footer .select-tool {
+        text-align: left;
+        padding: 5px 0;
+    }
+
+        .ocr-entry .modal-footer .select-tool label {
+            margin-left: 12px;
+        }
+
+            .ocr-entry .modal-footer .select-tool label input {
+                vertical-align: text-bottom;
+                margin: 0;
+            }
+
+.ocr-entry .list-group .list-group-item.active, .ocr-entry .list-group .list-group-item.active:focus, .ocr-entry .list-group .list-group-item.active:hover {
+    color: #000;
+    z-index: 2;
+    background-color: #fff;
+    border-color: #fff;
+    font-weight: 700;
+}
+
+.ocr-entry .groupTypeList .list-group-item {
+    border: 0;
+}
+
+.ocr-entry .form-inline {
+    padding: 10px;
+    display: block;
+    height: 52px;
+}
+
+    .ocr-entry .form-inline .form-control {
+    }
+
+.ocr-entry .header-text-state, .ocr-entry .content-txt-time {
+    float: right;
+}
+
+.ocr-entry .right-conent-list {
+    height: 385px;
+    overflow-y: auto;
+}
+
+    .ocr-entry .right-conent-list li {
+        padding: 5px;
+        padding-left: 50px;
+        position: relative;
+    }
+
+        .ocr-entry .right-conent-list li .cbBtn {
+            position: absolute;
+            left: 22px;
+            top: 24%;
+        }
+
+        .ocr-entry .right-conent-list li .list-group-item {
+            border: 0;
+            border-bottom: 1px solid #ccc;
+            border-radius: 0;
+            padding-left: 0;
+        }
+
+            .ocr-entry .right-conent-list li .list-group-item:last-child {
+                border: 0;
+            }
+
+.ocr-entry .modal-footer .btn {
+    min-width: 80px;
+}
+
+.ocr-entry-detail .modal-dialog {
+    width: 510px;
+}
+
+.ocr-entry-detail .detail-desc {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.ocr-entry-detail .modal-footer {
+    height: 86px;
+    text-align: center;
+    padding-top: 20px;
+}

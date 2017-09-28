@@ -1,0 +1,25 @@
+﻿
+<div class="detail-list">
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>序号</th>
+                <th>姓名</th>
+                <th>性别</th>
+                <th>证件号</th>
+                <th>状态</th>
+            </tr>
+        </thead>
+        <tbody>
+            <%_.each(Result.Items,function(guestItem,index){%>
+            <tr>
+                <td><%=index+1%></td>
+                <td><%=guestItem.Name%></td>
+                <td><%=guestItem.Gender%></td>
+                <td><%=guestItem.IDCode%></td>
+                <td><%=guestItem.State%></td>
+            </tr>
+            <%})%>
+        </tbody>
+    </table>
+</div>

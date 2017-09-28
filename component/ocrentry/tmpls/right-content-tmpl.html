@@ -1,0 +1,17 @@
+﻿<%_.each(Result,function(item,index){%>
+<li data-team-id="<%=item.GuestTeamId%>">
+    <input type="checkbox" class="cbBtn" value="<%=item.GuestTeamId%>"/> <a href="javascript:void(0);" class="list-group-item" data-side="1" data-team-id="<%=item.GuestTeamId%>">
+        <h2 class="list-group-item-heading">
+            <span class="header-text-state"><%=item.State==1?"已核对":"未核对"%></span>  <%=item.Category%>名单<span class="header-text-number">（<%=item.GuestCount%>）</span> <span class="header-text-username"><%=item.CreateUserName%></span>
+        </h2>
+        <p class="list-group-item-text">
+            <span class="content-txt-time"><%=item.ModifyByTime%></span>
+            <span>NO:<%=item.TeamCode%></span>
+
+        </p>
+        <p>
+            <%=item.Description||""%>
+        </p>
+    </a>
+</li>
+<%})%>

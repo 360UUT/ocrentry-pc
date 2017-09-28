@@ -1,0 +1,35 @@
+﻿<div class="modal fade ocr-entry">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">关闭</span></button>
+                <h4 class="modal-title">OCR 名单</h4>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-3  content-col list-group">
+                        <div class="groupTypeList inner-content">
+
+                        </div>
+
+                    </div>
+                    <div class="col-md-9 content-col">
+                        <div class="inner-content right-content">
+                            <form class="form-inline clearfix searchForm" name="searchForm">
+                                <div class="form-group">
+                                    <input type="search" name="searchInput" placeholder="编号、类别、关键字" maxlength="50" class="form-control" /> <button class="btn">搜索</button>
+                                </div>
+                            </form>
+                            <ul class="right-conent-list"></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <div class="select-tool">导入选择： <label><input type="radio" name="selecttool" value="allMember" checked="checked"/>全部游客</label><label><input type="radio" name="selecttool" value="verify" />已核对游客</label></div>
+            <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            <button type="button" class="btn btn-primary btnSave">保存</button>
+        </div>
+    </div>
+</div>

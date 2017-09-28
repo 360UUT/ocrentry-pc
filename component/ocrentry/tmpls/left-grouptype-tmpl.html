@@ -1,0 +1,12 @@
+﻿<a href="javascript:void(0);" class="list-group-item active" data-type="All" data-side="0">
+    全部
+</a>
+<a href="javascript:void(0);" class="list-group-item" data-type="TeamInfoOfShareToMe" data-side="0">发来名单</a>
+<a href="javascript:void(0);" class="list-group-item" data-type="TeamInfoOfMe" data-side="0">我的名单</a>
+<a href="javascript:void(0);" class="list-group-item" data-type="UnVerifyTeamInfo" data-side="0">未核名单</a>
+<a href="javascript:void(0);" class="list-group-item" data-type="VerifyTeamInfo" data-side="0">已核名单</a>
+<%_.each(Result,function(item,index){%>
+<a href="javascript:void(0);" class="list-group-item" data-type="Custom" data-cate-id="<%=item.CategoryId%>" data-side="0"><%=item.CategoryName%></a>
+<%})%>
+<!--<a href="javascript:void(0);" class="list-group-item" data-type="Custom">天马</a>
+<a href="javascript:void(0);" class="list-group-item" data-type="Custom">成功之旅</a>-->
